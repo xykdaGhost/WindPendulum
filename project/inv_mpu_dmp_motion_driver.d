@@ -36,5 +36,14 @@
 .\inv_mpu_dmp_motion_driver.o: ..\hardware\eMPL\inv_mpu_dmp_motion_driver.h
 .\inv_mpu_dmp_motion_driver.o: ..\hardware\eMPL\dmpKey.h
 .\inv_mpu_dmp_motion_driver.o: ..\hardware\eMPL\dmpmap.h
-.\inv_mpu_dmp_motion_driver.o: ..\hardware\delay.h
+.\inv_mpu_dmp_motion_driver.o: ..\hardware\Uarts.h
+.\inv_mpu_dmp_motion_driver.o: ..\user\public.h
+.\inv_mpu_dmp_motion_driver.o: ..\hardware\JY901.h
+.\inv_mpu_dmp_motion_driver.o: ..\user\public.h
+.\inv_mpu_dmp_motion_driver.o: ..\hardware\Uarts.h
+.\inv_mpu_dmp_motion_driver.o: ..\hardware\Encoder.h
+.\inv_mpu_dmp_motion_driver.o: ..\hardware\PID.h
+.\inv_mpu_dmp_motion_driver.o: ..\hardware\mpu6050.h
+.\inv_mpu_dmp_motion_driver.o: ..\hardware\mpuiic.h
 .\inv_mpu_dmp_motion_driver.o: ..\hardware\sys.h
+.\inv_mpu_dmp_motion_driver.o: ..\hardware\delay.h

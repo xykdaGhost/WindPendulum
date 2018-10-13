@@ -32,3 +32,13 @@
 .\mpu6050.o: ..\lib\inc\stm32f10x_wwdg.h
 .\mpu6050.o: ..\lib\inc\misc.h
 .\mpu6050.o: ..\hardware\delay.h
+.\mpu6050.o: ..\hardware\Uarts.h
+.\mpu6050.o: ..\user\public.h
+.\mpu6050.o: ..\hardware\JY901.h
+.\mpu6050.o: ..\user\public.h
+.\mpu6050.o: ..\hardware\Uarts.h
+.\mpu6050.o: ..\hardware\Encoder.h
+.\mpu6050.o: ..\hardware\PID.h
+.\mpu6050.o: ..\hardware\eMPL\inv_mpu.h
+.\mpu6050.o: ..\hardware\eMPL\inv_mpu_dmp_motion_driver.h
+.\mpu6050.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

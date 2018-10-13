@@ -38,3 +38,10 @@
 .\inv_mpu.o: ..\hardware\mpuiic.h
 .\inv_mpu.o: ..\hardware\sys.h
 .\inv_mpu.o: ..\hardware\delay.h
+.\inv_mpu.o: ..\hardware\Uarts.h
+.\inv_mpu.o: ..\user\public.h
+.\inv_mpu.o: ..\hardware\JY901.h
+.\inv_mpu.o: ..\user\public.h
+.\inv_mpu.o: ..\hardware\Uarts.h
+.\inv_mpu.o: ..\hardware\Encoder.h
+.\inv_mpu.o: ..\hardware\PID.h

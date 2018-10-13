@@ -1,7 +1,7 @@
 Dependencies for Project 'model', Target 'project': (DO NOT MODIFY !)
 F (..\user\core_cm3.c)(0x4C0C587E)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
-F (..\user\main.c)(0x5BC1CA09)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (..\user\main.c)(0x5BC1CCCA)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
 I (..\user\stm32f10x.h)(0x4D783CB4)
 I (..\user\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
@@ -328,7 +328,7 @@ F (..\hardware\PID.c)(0x5BC1C8F1)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=i
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
 I (..\hardware\PID.h)(0x5BC1C999)
-F (..\hardware\mpu6050.c)(0x5BC1C5EF)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\mpu6050.o --omf_browse .\mpu6050.crf --depend .\mpu6050.d)
+F (..\hardware\mpu6050.c)(0x5BC1D60D)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\mpu6050.o --omf_browse .\mpu6050.crf --depend .\mpu6050.d)
 I (..\hardware\mpu6050.h)(0x54CB7BAE)
 I (..\hardware\mpuiic.h)(0x5BC1B50A)
 I (..\hardware\sys.h)(0x5B698561)
@@ -361,6 +361,14 @@ I (..\lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\lib\inc\misc.h)(0x4D783BB4)
 I (..\hardware\delay.h)(0x5B698655)
+I (..\hardware\Uarts.h)(0x5B7C0FE8)
+I (..\user\public.h)(0x5BC1C5C9)
+I (..\hardware\JY901.h)(0x5B7D071D)
+I (..\hardware\Encoder.h)(0x5B7D64B9)
+I (..\hardware\PID.h)(0x5BC1C999)
+I (..\hardware\eMPL\inv_mpu.h)(0x54B9E068)
+I (..\hardware\eMPL\inv_mpu_dmp_motion_driver.h)(0x50CA9A0C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 F (..\hardware\mpuiic.c)(0x5BC1B509)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\mpuiic.o --omf_browse .\mpuiic.crf --depend .\mpuiic.d)
 I (..\hardware\mpuiic.h)(0x5BC1B50A)
 I (..\hardware\sys.h)(0x5B698561)
@@ -393,7 +401,7 @@ I (..\lib\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\lib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\lib\inc\misc.h)(0x4D783BB4)
 I (..\hardware\delay.h)(0x5B698655)
-F (..\hardware\eMPL\inv_mpu.c)(0x5BC1C5E8)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\inv_mpu.o --omf_browse .\inv_mpu.crf --depend .\inv_mpu.d)
+F (..\hardware\eMPL\inv_mpu.c)(0x5BC1D5F5)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\inv_mpu.o --omf_browse .\inv_mpu.crf --depend .\inv_mpu.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
@@ -432,7 +440,12 @@ I (..\hardware\mpu6050.h)(0x54CB7BAE)
 I (..\hardware\mpuiic.h)(0x5BC1B50A)
 I (..\hardware\sys.h)(0x5B698561)
 I (..\hardware\delay.h)(0x5B698655)
-F (..\hardware\eMPL\inv_mpu_dmp_motion_driver.c)(0x5BC1C5E1)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\inv_mpu_dmp_motion_driver.o --omf_browse .\inv_mpu_dmp_motion_driver.crf --depend .\inv_mpu_dmp_motion_driver.d)
+I (..\hardware\Uarts.h)(0x5B7C0FE8)
+I (..\user\public.h)(0x5BC1C5C9)
+I (..\hardware\JY901.h)(0x5B7D071D)
+I (..\hardware\Encoder.h)(0x5B7D64B9)
+I (..\hardware\PID.h)(0x5BC1C999)
+F (..\hardware\eMPL\inv_mpu_dmp_motion_driver.c)(0x5BC1D60E)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\inv_mpu_dmp_motion_driver.o --omf_browse .\inv_mpu_dmp_motion_driver.crf --depend .\inv_mpu_dmp_motion_driver.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
@@ -469,8 +482,15 @@ I (..\lib\inc\misc.h)(0x4D783BB4)
 I (..\hardware\eMPL\inv_mpu_dmp_motion_driver.h)(0x50CA9A0C)
 I (..\hardware\eMPL\dmpKey.h)(0x50CA9A0C)
 I (..\hardware\eMPL\dmpmap.h)(0x50CA9A0C)
-I (..\hardware\delay.h)(0x5B698655)
+I (..\hardware\Uarts.h)(0x5B7C0FE8)
+I (..\user\public.h)(0x5BC1C5C9)
+I (..\hardware\JY901.h)(0x5B7D071D)
+I (..\hardware\Encoder.h)(0x5B7D64B9)
+I (..\hardware\PID.h)(0x5BC1C999)
+I (..\hardware\mpu6050.h)(0x54CB7BAE)
+I (..\hardware\mpuiic.h)(0x5BC1B50A)
 I (..\hardware\sys.h)(0x5B698561)
+I (..\hardware\delay.h)(0x5B698655)
 F (..\lib\src\misc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\lib\inc -I ..\hardware -I ..\user -I ..\hardware\eMPL-I.\RTE\_project-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\misc.o --omf_browse .\misc.crf --depend .\misc.d)
 I (..\lib\inc\misc.h)(0x4D783BB4)
 I (..\user\stm32f10x.h)(0x4D783CB4)
